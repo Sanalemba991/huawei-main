@@ -249,7 +249,7 @@ const NavbarCategoryClient: React.FC<NavbarCategoryClientProps> = ({ data }) => 
                                                     whileHover={{ scale: 1.02 }}
                                                     whileTap={{ scale: 0.98 }}
                                                 >
-                                                    <span>View Sub Categories</span>
+                                                    <span>View Products</span>
                                                     <svg
                                                         className="w-3 h-3 transition-transform duration-300 group-hover:translate-x-0.5"
                                                         fill="none"

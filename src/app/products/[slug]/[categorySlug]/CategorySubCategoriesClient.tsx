@@ -168,7 +168,7 @@ export default function CategorySubCategoriesClient({ data }: CategorySubCategor
             >
               <span>Part of</span>
               <Link
-                href={`/${navbarCategory.slug}`}
+                href={`products/${navbarCategory.slug}`}
                 className="hover:text-white font-semibold transition-colors duration-200"
               >
                 {navbarCategory.name}
