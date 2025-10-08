@@ -266,7 +266,7 @@ const ProductsPage = () => {
                       {/* Action Button */}
                       <div className="flex justify-center">
                         <Link
-                          href={`/products/${group.navbarCategory.slug}/${category.slug}`}
+                          href={`/products/${group.navbarCategory.slug}`}
                           className="mt-auto"
                         >
                           <motion.div
